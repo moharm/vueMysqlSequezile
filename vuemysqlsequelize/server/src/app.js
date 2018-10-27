@@ -2,7 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const morgan = require('morgan')
-console.log('hello')
+console.log('hellscsco')
 
 const app = express()
 app.use(morgan('combined'))
@@ -12,7 +12,7 @@ app.use(cors())
 
 app.get('/status', (req, res) => {
     res.send({
-        message: 'hello word'
+        message: 'he word'
     })
 })
 
