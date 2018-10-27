@@ -12,7 +12,7 @@ app.use(cors())
 
 app.get('/status', (req, res) => {
     res.send({
-        message: 'he word'
+        message: `hello ${req.body.email} ! Your user was regitered! Have fun!`
     })
 })
 
